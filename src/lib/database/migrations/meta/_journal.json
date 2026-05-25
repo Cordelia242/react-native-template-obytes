@@ -22,6 +22,13 @@
       "when": 1779674897000,
       "tag": "0002_currencies",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1779714726382,
+      "tag": "0003_loud_the_enforcers",
+      "breakpoints": true
     }
   ]
 }
