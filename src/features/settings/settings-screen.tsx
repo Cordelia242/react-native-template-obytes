@@ -41,6 +41,10 @@ export function SettingsScreen() {
               text="settings.currencies"
               onPress={() => router.push('/monedas')}
             />
+            <SettingsItem
+              text="settings.tags"
+              onPress={() => router.push('/etiquetas')}
+            />
           </SettingsContainer>
 
           <SettingsContainer title="settings.generale">
