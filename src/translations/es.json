@@ -41,6 +41,7 @@
     "share": "Compartir",
     "support": "Soporte",
     "support_us": "Apóyanos",
+    "tags": "Etiquetas",
     "terms": "Términos de servicio",
     "theme": {
       "dark": "Oscuro",
@@ -51,6 +52,23 @@
     "title": "Configuración",
     "version": "Versión",
     "website": "Sitio web"
+  },
+  "tags": {
+    "created": "Etiqueta creada",
+    "delete": "Eliminar etiqueta",
+    "delete_confirm_message": "Esta etiqueta está en uso en {{count}} transacción(es). ¿Eliminar de todas formas?",
+    "delete_confirm_simple": "¿Eliminar esta etiqueta?",
+    "delete_confirm_title": "Eliminar etiqueta",
+    "deleted": "Etiqueta eliminada",
+    "edit": "Editar etiqueta",
+    "empty": "Sin etiquetas",
+    "name_label": "Nombre",
+    "name_required": "Nombre requerido",
+    "new": "Nueva etiqueta",
+    "save": "Guardar etiqueta",
+    "title": "Etiquetas",
+    "update": "Actualizar etiqueta",
+    "updated": "Etiqueta actualizada"
   },
   "welcome": "Bienvenido"
 }

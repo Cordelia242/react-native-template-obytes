@@ -41,6 +41,7 @@
     "share": "شارك",
     "support": "الدعم",
     "support_us": "ادعمنا",
+    "tags": "الوسوم",
     "terms": "شروط الخدمة",
     "theme": {
       "dark": "مظلم",
@@ -51,6 +52,23 @@
     "title": "إعدادات",
     "version": "إصدار",
     "website": "موقع الكتروني"
+  },
+  "tags": {
+    "created": "تم إنشاء الوسم",
+    "delete": "حذف الوسم",
+    "delete_confirm_message": "هذا الوسم مستخدم في {{count}} معاملة(عات). هل تريد الحذف على أي حال؟",
+    "delete_confirm_simple": "حذف هذا الوسم؟",
+    "delete_confirm_title": "حذف الوسم",
+    "deleted": "تم حذف الوسم",
+    "edit": "تحرير الوسم",
+    "empty": "لا توجد وسوم",
+    "name_label": "الاسم",
+    "name_required": "الاسم مطلوب",
+    "new": "وسم جديد",
+    "save": "حفظ الوسم",
+    "title": "الوسوم",
+    "update": "تحديث الوسم",
+    "updated": "تم تحديث الوسم"
   },
   "welcome": "test arabic"
 }
