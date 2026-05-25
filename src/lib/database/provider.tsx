@@ -9,6 +9,7 @@ import { AccountCategoryRepository } from './repositories/account-category';
 import { BudgetRepository } from './repositories/budget';
 import { BudgetCategoryRepository } from './repositories/budget-category';
 import { CurrencyRepository } from './repositories/currency';
+import { TagRepository } from './repositories/tag';
 import { TransactionRepository } from './repositories/transaction';
 
 type DatabaseContextValue = {
@@ -17,6 +18,7 @@ type DatabaseContextValue = {
   budgetCategories: BudgetCategoryRepository;
   budgets: BudgetRepository;
   currencies: CurrencyRepository;
+  tags: TagRepository;
   transactions: TransactionRepository;
 };
 
@@ -39,6 +41,7 @@ export function DatabaseProvider({ children }: { children: React.ReactNode }) {
             budgetCategories: new BudgetCategoryRepository(db),
             budgets: new BudgetRepository(db),
             currencies: new CurrencyRepository(db),
+            tags: new TagRepository(db),
             transactions: new TransactionRepository(db),
           });
         }
