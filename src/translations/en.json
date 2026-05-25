@@ -41,7 +41,6 @@
     "share": "Share",
     "support": "Support",
     "support_us": "Support Us",
-    "tags": "Tags",
     "terms": "Terms of Service",
     "theme": {
       "dark": "Dark",
@@ -52,23 +51,6 @@
     "title": "Settings",
     "version": "Version",
     "website": "Website"
-  },
-  "tags": {
-    "created": "Tag created",
-    "delete": "Delete tag",
-    "delete_confirm_message": "This tag is used in {{count}} transaction(s). Delete anyway?",
-    "delete_confirm_simple": "Delete this tag?",
-    "delete_confirm_title": "Delete tag",
-    "deleted": "Tag deleted",
-    "edit": "Edit tag",
-    "empty": "No tags",
-    "name_label": "Name",
-    "name_required": "Name required",
-    "new": "New tag",
-    "save": "Save tag",
-    "title": "Tags",
-    "update": "Update tag",
-    "updated": "Tag updated"
   },
   "welcome": "Welcome to obytes app site"
 }
