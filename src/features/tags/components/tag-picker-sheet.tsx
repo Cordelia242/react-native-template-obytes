@@ -39,13 +39,12 @@ export function TagPickerSheet({ selectedIds, onChange, sheetRef }: Props) {
               <Pressable
                 key={tag.id}
                 onPress={() => toggle(tag.id)}
+                accessibilityRole="checkbox"
+                accessibilityState={{ checked: selectedIds.includes(tag.id) }}
+                accessibilityLabel={tag.name}
                 className="flex-row items-center gap-3 border-b border-neutral-100 px-4 py-3 dark:border-neutral-800"
               >
-                <Checkbox
-                  checked={selectedIds.includes(tag.id)}
-                  onChange={() => toggle(tag.id)}
-                  accessibilityLabel={tag.name}
-                />
+                <Checkbox.Icon checked={selectedIds.includes(tag.id)} />
                 <Text className="font-medium">{tag.name}</Text>
               </Pressable>
             ))}
