@@ -49,7 +49,7 @@ Archivo `src/lib/database/migrations/0003_tags.sql`, generado con `drizzle-kit g
 |---|---|
 | `tag.commands.ts` | `createTag`, `updateTag`, `deleteTag` |
 | `tag.queries.ts` | `findAllTags`, `findTagById` |
-| `tag.relations.ts` | `addTagToTransaction`, `removeTagFromTransaction`, `findTransactionCountByTag` |
+| `tag.relations.ts` | `addTagToTransaction`, `removeTagFromTransaction`, `findTransactionCountByTag` — todos operan sobre `transaction_tags`, no sobre `tags` |
 | `index.ts` | Clase `TagRepository` que expone todos los métodos |
 
 `findTransactionCountByTag(id): number` — usado por la UI antes de confirmar el borrado para mostrar cuántas transacciones usan la tag.
