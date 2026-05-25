@@ -13,5 +13,5 @@ export const transactionTags = sqliteTable(
       .notNull()
       .references(() => transactions.id, { onDelete: 'cascade' }),
   },
-  t => ({ pk: primaryKey({ columns: [t.tagId, t.transactionId] }) }),
+  t => [primaryKey({ columns: [t.tagId, t.transactionId] })],
 );
