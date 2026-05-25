@@ -3,4 +3,6 @@ export * from './account-category';
 export * from './budget';
 export * from './budget-category';
 export * from './currency';
+export * from './tag';
 export * from './transaction';
+export * from './transaction-tag';
